@@ -38,10 +38,9 @@ function getDeliveryCharge(isAddDelivery) {
 }
 
 //Total Price
-// let bestPriceInput = document.getElementById('best-price');
+
 function updateTotal(memoryPrice = "0", storagePrice = "0", deliveryCharge = "0") {
 
-    // const bestPrice = parseInt(bestPriceInput.innerText);
     const total = document.getElementById('total');
     const memoryCost = parseInt(memoryPrice.innerText);
     const storageCost = parseInt(storagePrice.innerText);
