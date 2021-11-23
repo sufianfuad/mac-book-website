@@ -13,9 +13,9 @@ function getMemoryPrice(addExtra) {
 
 //storage function
 function getStoragePrice(isAddStorage) {
-    let storageField = document.getElementById('storage-cost');
+    let storagePrice = document.getElementById('storage-cost');
     if (isAddStorage == false) {
-        storageField.innerText = '0';
+        storagePrice.innerText = '0';
     }
     else if (isAddStorage == true) {
         storageField.innerText = '100';
